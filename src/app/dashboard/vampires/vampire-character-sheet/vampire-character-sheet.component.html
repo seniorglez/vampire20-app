@@ -1,0 +1,26 @@
+<div class="character-sheet">
+    <h2>{{ characterName }}</h2>
+    <div class="attribute-section">
+      <h3>Attributes</h3>
+      <div class="attribute">
+        <span class="attribute-name">Strength:</span>
+        <span class="attribute-value">{{ strength }}</span>
+      </div>
+      <div class="attribute">
+        <span class="attribute-name">Dexterity:</span>
+        <span class="attribute-value">{{ dexterity }}</span>
+      </div>
+      <div class="attribute">
+        <span class="attribute-name">Stamina:</span>
+        <span class="attribute-value">{{ stamina }}</span>
+      </div>
+      <!-- Add more attributes here as needed -->
+    </div>
+    <div class="discipline-section">
+      <h3>Disciplines</h3>
+      <div class="discipline" *ngFor="let discipline of disciplines">
+        <span class="discipline-name">{{ discipline }}</span>
+      </div>
+    </div>
+  </div>
+  

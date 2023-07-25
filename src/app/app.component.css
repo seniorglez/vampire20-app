@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+  }
+  
+  /* Estilos para la barra lateral (w3-quarter) */
+  .sidebar {
+    flex: 0 0 10%; /* Ocupa el 25% del ancho total y no crecerá ni se reducirá */
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-link {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilos para el área de contenido principal (w3-rest) */
+  .content {
+    flex: 1; /* Ocupa el espacio restante disponible */
+    padding: 20px;
+    background-color: #fff;
+  }

@@ -1,0 +1,36 @@
+.character-sheet {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .attribute-section {
+    margin-top: 20px;
+  }
+  
+  .attribute {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .attribute-name {
+    font-weight: bold;
+  }
+  
+  .discipline-section {
+    margin-top: 20px;
+  }
+  
+  .discipline {
+    background-color: #ddd;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+  }
+  
